@@ -7,16 +7,15 @@ const assertEqual = function(actual, expected) {
 };
 
 const head = function(array) {
-    if (array === undefined || array.length == 0) {
-        return "undefined";
-    }
-    else
-        return array[0];
-  };
+  if (array === undefined || array.length === 0) {
+    return "undefined";
+  } else
+    return array[0];
+};
   
-  // TEST CODE
-  assertEqual(head([5,6,7]), 5);
-  assertEqual(head(["Hello", "Lighthouse", "Labs"]), "Hello");
-  assertEqual(head(["Hello", "Lighthouse", "Labs"]), "Lighthouse");
-  console.log(head([]));
-  console.log(head());
+// TEST CODE
+assertEqual(head([5,6,7]), 5);
+assertEqual(head(["Hello", "Lighthouse", "Labs"]), "Hello");
+assertEqual(head(["Hello", "Lighthouse", "Labs"]), "Lighthouse");
+console.log(head([]));
+console.log(head());
