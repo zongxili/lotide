@@ -29,12 +29,6 @@ const middle = function(array) {
     returnArr.push(array[(len / 2 - 1)], array[len / 2 ]);
   return returnArr;
 };
-    
-// assertArraysEqual([1, 2, 3], [1, 2, 3]); // => should PASS
-// assertArraysEqual(["1", "2", "3"], ["1", "2", "3"]); // => should PASS
-// assertArraysEqual(["1", "2", "3"], ["1", "2", "3"]); // => true
-// assertArraysEqual(["1", "2", "3"], ["1", "2", 3]); // => false
-// assertArraysEqual([1, 2, 3], [3, 2, 1]); // => false
 
 console.log(middle([1]));
 console.log(middle([1, 2]));
