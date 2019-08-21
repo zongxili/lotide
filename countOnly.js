@@ -14,6 +14,10 @@ const countOnly = function(allItems, itemsToCount) {
     console.log(item);
     //Object.keys added since this program needs to check the Key name one by one
     for (const wantedItem of Object.keys(itemsToCount)) {
+    //   if (itemsToCount[item]) { 
+    //   this is school's answer for the following IF statement, this is even better
+    //   since it puts the item to the target object to check
+    //   smart!
       if (item === wantedItem) {
         //if the results has this item as a key which should not be undefined
         if (results[item])
