@@ -22,7 +22,7 @@ const eqArrays = function(array1, array2) {
 const letterPositions = function(sentence) {
   const results = {};
   // logic to update results here
-  inputArr = sentence.split(" ");
+  const inputArr = sentence.split(" ");
   for (const oneWord of inputArr) {
     for (let i = 0; i < oneWord.length; i++) {
       if (results[oneWord.charAt(i)])
