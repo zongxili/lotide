@@ -34,7 +34,7 @@ const without = function(originArr, unwantedArr){
   return outputArr;
 };
 
-without([1, 2, 3], [1]) // => [2, 3]
+console.log(without([1, 1, 2, 3], [1])); // => [2, 3]
 without(["1", "2", "3"], [1, 2, "3"]) // => ["1", "2"]
 
 
