@@ -18,6 +18,16 @@ const findKeyByValue = function(inputObject, inputValue) {
   return outputKey;
 };
 
+//mentor's answer, much better and shorter
+const findKeyByValueByMentor = (inputObject, inputValue) => {
+  for (let key in inputObject) {
+    const currentValue = inputObject[key];
+      if (currentValue === inputValue) {
+        return key;
+      }  
+  }
+}
+
 //testing cases
 const bestTVShowsByGenre = {
   sci_fi: "The Expanse",
@@ -27,3 +37,5 @@ const bestTVShowsByGenre = {
   
 assertEqual(findKeyByValue(bestTVShowsByGenre, "The Wire"), "drama");
 assertEqual(findKeyByValue(bestTVShowsByGenre, "That '70s Show"), undefined);
+assertEqual(findKeyByValueByMentor(bestTVShowsByGenre, "The Wire"), "drama");
+assertEqual(findKeyByValueByMentor(bestTVShowsByGenre, "That '70s Show"), undefined);
