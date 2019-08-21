@@ -24,7 +24,7 @@ const findKeyByValueByMentor = (inputObject, inputValue) => {
     const currentValue = inputObject[key];
       if (currentValue === inputValue) {
         return key;
-      }  
+      }
   }
 }
 
