@@ -1,6 +1,3 @@
-//FUNCTION IMPLEMENTION FROM ANOTHER FUNCTION
-const assertEqual = require('./assertEqual');
-
 const head = function(array) {
   if (array === undefined || array.length === 0) {
     return "undefined";

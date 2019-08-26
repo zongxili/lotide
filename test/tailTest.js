@@ -1,4 +1,3 @@
-// test/headTest.js
 const assertEqual = require('../assertEqual');
 const tail = require('../tail');
 
