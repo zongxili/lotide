@@ -1,5 +1,4 @@
-// FUNCTION IMPLEMENTATION
-const eqArrays = require('./eqArrays');
+const {eqArrays} = require('./index');
 
 const assertArraysEqual = function(actualArr, expectedArr) {
   if (eqArrays(actualArr, expectedArr)) {

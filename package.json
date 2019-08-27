@@ -1,7 +1,7 @@
 {
-  "name": "lotide",
+  "name": "@zongxili/lotide",
   "version": "1.0.0",
-  "description": "",
+  "description": "This is package.json file for Zongxi's library",
   "main": "assertArraysEqual.js",
   "directories": {
     "test": "test"
@@ -19,7 +19,7 @@
     "type": "git",
     "url": "git+https://github.com/zongxili/lotide.git"
   },
-  "author": "",
+  "author": "Zongxi Li",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/zongxili/lotide/issues"

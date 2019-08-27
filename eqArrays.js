@@ -1,8 +1,3 @@
-//check if the elemetn is an array
-  //all two are arrays
-    //pass all 2 to the function
-  //none of them are
-  //one is and another one isnt
 const eqArrays = function(array1, array2) {
   if (array1.length !== array2.length)
     return false;
