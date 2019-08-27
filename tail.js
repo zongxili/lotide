@@ -4,6 +4,7 @@ const tail = function(array) {
   } else if (array.length === 0 || array.length === 1) {
     return [];
   } else
-    return array.slice(1, array.length);
+    return array.slice(1);
 };
+
 module.exports = tail;

@@ -1,5 +1,5 @@
 const assert = require('chai').assert;
-const head   = require('../head');
+const head = require('../head');
 
 //Mocha and Chai testing
 describe("#head", () => {
@@ -16,4 +16,3 @@ describe("#head", () => {
   });
 
 });
-
